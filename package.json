@@ -37,7 +37,7 @@
     "@playwright/test": "^1.31.1",
     "autoprefixer": "^10.4.13",
     "babel-loader": "^9.1.2",
-    "bootstrap": "^5.2.3",
+    "bootstrap": "^5.3.0-alpha1",
     "bootstrap-icons": "^1.10.3",
     "css-loader": "^6.7.3",
     "glob": "^9.0.1",
