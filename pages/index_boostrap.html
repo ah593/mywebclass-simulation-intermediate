@@ -14,8 +14,13 @@
     <!--OpenGraph meta -->
     <meta property="og:title" content=""/>
     <meta property="og:description" content=""/>
-    <meta property="og:image" content="assets/images/logo.png"/>
+    <meta property="og:image" content="/src/assets/images/logo.png"/>
     <meta property="og:url" content=""/>
+    
+    <!-- JavaScript-->
+    <script defer="defer" src="/src/js/index.js"></script>
+    <script defer="defer" src="/src/js/main.js"></script>
+    <script defer="defer" src="/src/js/allPages.js"></script>
     
     <!-- Boostrap Files -->
     <link rel="stylesheet"
@@ -32,10 +37,10 @@
 
 <body style="margin-top: 70px;" class="pt-5" >
 <div class = "container-fluid">
-    <header role="banner" class="fixed-top" style="border-bottom: 0.01rem solid lightgrey;">
-        <nav role="navigation" aria-label="Main navigation" class="navbar navbar-expand-lg" style="background-color:white;">
+    <header role="banner" class="fixed-top">
+        <nav role="navigation" aria-label="Main navigation" class="navbar navbar-expand-lg" style="background-color:white; border-bottom: 0.01rem solid lightgrey;">
             <div class="container">
-                <a class="navbar-brand" ps-5" style="font-family: 'Tahoma', Geneva, sans-serif;" href="#">MyWebClass.org</a>
+                <a class="navbar-brand ps-5" style="font-family: 'Tahoma', Geneva, sans-serif;" href="#">MyWebClass.org</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon" aria-hidden="true"></span>
@@ -44,13 +49,13 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="/src/privacy.html">
+                            <a class="nav-link" href="/pages/privacy_boostrap.html">
                                 <button type="button" class="btn btn-primary">Privacy Policy
                                 </button>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/src/content.html">
+                            <a class="nav-link" href="/pages/content.html">
                                 <button type="button" class="btn btn-primary">Articles
                                 </button>
                             </a>
@@ -89,9 +94,9 @@
                 <h5>About Us</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                    <li class="nav-item mb-2"><a href="/src/story.html" class="nav-link p-0 text-muted">Our
-                        Story</a>
-                    </li>
+                        <li class="nav-item mb-2"><a href="/src/story.html" class="nav-link p-0 text-muted">Our
+                            Story</a>
+                        </li>
 
                     <a class="nav-link mb-2 p-0 text-muted active" aria-current="page" href="/src/privacy.html">Privacy
                         Policy</a>
@@ -109,7 +114,8 @@
                             class="bi bi-twitter me-2"></i></a>
                     </li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i
-                            class="bi bi-facebook me-2"></i></a></li>
+                            class="bi bi-facebook me-2"></i></a>
+                    </li>
                 </ul>
             </div>
 
